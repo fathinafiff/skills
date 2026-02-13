@@ -1,0 +1,22 @@
+{
+    "name": "fathinafiff-skills",
+    "owner": {
+        "name": "Fathina Afiff",
+        "email": "fathin@nightcoders.id"
+    },
+    "metadata": {
+        "description": "Fathina Afif plugins for Agents",
+        "version": "1.0.0"
+    },
+    "plugins": [
+        {
+            "name": "threads-api-skills",
+            "description": "Publish and manage Meta Threads posts programmatically via the Threads API (create container + publish). Use for building Threads autoposting, scheduling daily posts, posting text/image/carousel via API, validating tokens/scopes, and wiring OpenClaw cron or scripts to publish to Threads",
+            "source": "./",
+            "strict": false,
+            "skills": [
+                "./skills/threads-api"
+            ]
+        }
+    ]
+}
